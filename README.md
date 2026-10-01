@@ -3,7 +3,7 @@
 
 # DFRoot [DirtyFrag (CVE-2026-43284)]
 
-Fork to root my emerald aka Poco M6 Pro (non-Samsung). Not tested on other devices.
+Fork to root my Pong aka Nothing Phone 2 (non-Samsung). Not sure about other devices.
 
 The core of this code is credited to others. This fork combines those pieces and adds a few small
 improvements/features.
@@ -12,6 +12,7 @@ Credits:
 - Original PoC and various code: https://github.com/lsposed/lspromise
 - Selinux Permissive kernel modules and various code: https://github.com/polygraphene/DFReroot
 - Unprivileged XFRM socket method: https://github.com/combeng6th/DirtyInit
+- Datfooldive repo and assist: https://github.com/datfooldive/DFRoot
 
 ## Features
 
@@ -28,7 +29,7 @@ Credits:
 
 Ephemeral root for Samsung devices (and possibly others) w/ locked bootloaders vulnerable to DirtyFrag (CVE-2026-43284) 
 
-**Verified on a non-Samsung device:** Poco M6 Pro (emerald, MT6789), HyperOS, kernel `6.12.30-android16` — DEFEX kprobes silently no-op on non-Samsung kernels; everything else is generic GKI.
+**Verified on a non-Samsung device:** Nothing Phone 2 (Pong, SD8+ Gen 1 "SM8475"), Nothing OS 4.1, kernel `5.10.237-android12` — DEFEX kprobes silently no-op on non-Samsung kernels; everything else is generic GKI.
 
 | KMI Version | Verified |
 |---|---|
