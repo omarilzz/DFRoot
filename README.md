@@ -32,7 +32,7 @@ Ephemeral root for Samsung devices (and possibly others) w/ locked bootloaders v
 
 | KMI Version | Verified |
 |---|---|
-| android12-5.10 | Untested |
+| android12-5.10 | Yes ( Nothing Phone 2 ) |
 | android13-5.10 | Untested |
 | android13-5.15 | Untested |
 | android14-5.15 | Untested |
